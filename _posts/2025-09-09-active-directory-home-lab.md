@@ -5,6 +5,7 @@ description: "A hands-on exploration of Active Directory, from basic concepts to
 date: 2025-09-09
 categories: projects
 permalink: /projects/active-directory-home-lab
+author: "Mauricio"
 ---
 
 # Active Directory Home Lab: Understanding the Basics
