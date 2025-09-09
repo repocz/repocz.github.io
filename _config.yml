@@ -3,7 +3,7 @@ description: "Showcasing my projects and experience"
 theme: jekyll-theme-hacker
 permalink: /:categories/:title
 url: "https://repocz.github.io"
-author: Mauricio
+author: "Mauricio S." 
 # Navigation menu
 header_pages:
   - index.md
