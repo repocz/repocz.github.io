@@ -5,13 +5,17 @@ title: Projects
 
 # Projects
 
-## Active Directory Home Lab
-- Set up a full AD environment with Group Policies, RBAC, and OUs.
+## Active Directory 
 
-## T-Pot Honeypot Project
-- Built and monitored a honeypot with Kibana dashboards.
+- [Active Directory Home Lab]({{ site.baseurl }}/projects/active-directory-home-lab)  
+  Hands-on exploration of Active Directory, including OU design, user and group management, replication, and both logical and physical AD concepts.
+
+## T-Pot Honeypot 
+- [T-Pot Honey Project]({{ site.baseurl }}/projects/tpot-honeypot)  
+  Set up a honeypot environment using T-Pot with monitoring and logging, capturing real-world attack patterns for analysis.
 
 ## Email Verifier Tool
-- Developed a Windows `.exe` to check SMTP/MX records.
+- [Email Verifier Tool]({{ site.baseurl }}/projects/email-verifier-tool)  
+  Developed a Windows tool to generate and verify email permutations using SMTP/MX checks, with CSV export functionality for bulk processing.
 
 [Back to Home](index.md)
