@@ -37,11 +37,11 @@ Modern environments may leverage **Azure Active Directory**, which shifts identi
 
 ## Implementation & Hands-On Work
 1. **Server Setup:**  
-   Installed **Windows Server 2019**, configured roles including **Active Directory Domain Services (AD DS)** and **DNS**.
+   Installed **Windows Server 2016**, configured roles including **Active Directory Domain Services (AD DS)** and **DNS**.
 
 2. **Logical AD Management:**  
    - Created **Organizational Units** such as `Operations`.  
-   - Added **users** like `Jean-Luc Picard` and `James Kirk` with proper username conventions (`surname.initial`).  
+   - Added **users** like `Chandler Roah` and `John Hall` with proper username conventions (`surname.initial`).  
    - Created **groups** like `Ops Managers` and assigned users to these groups for easier permissions management.  
 
 3. **Exploring Attributes & Permissions:**  
