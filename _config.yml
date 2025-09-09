@@ -1,3 +1,10 @@
 title: "My Portfolio"
 description: "Showcasing my projects and experience"
 theme: jekyll-theme-hacker
+
+# Navigation menu
+header_pages:
+  - index.md
+  - projects.md
+  - resume.md
+  - contact.md
