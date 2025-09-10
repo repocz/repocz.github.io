@@ -110,4 +110,6 @@ Potential improvements:
 
 ---
 
-*This page was generated from the capstone report.*
+[📄 Download the full AD Lab Report (PDF)](/assets/pdfs/Honeypot-Capstone-Report-MS.pdf)
+
+
