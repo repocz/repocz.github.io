@@ -98,5 +98,5 @@ Potential improvements:
 
 ---
 
-*This page was generated from the capstone report.*
+
 
