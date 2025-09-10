@@ -4,7 +4,7 @@ title: "Python Scripting Assignment"
 description: "This assignment involved creating several Python scripts and functions that demonstrate core programming concepts such as file handling, hashing, randomization, set operations, and brute-force techniques. The tasks were designed to strengthen scripting skills while applying them to practical scenarios."
 date: 2025-09-10
 categories: projects
-permalink: /projects/python-script-assignment
+permalink: /projects/python-scripting-assignment
 ---
 
 ## Overview
