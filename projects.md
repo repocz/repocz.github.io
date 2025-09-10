@@ -14,8 +14,8 @@ title: Projects
 - [T-Pot Honey Project]({{ site.baseurl }}/projects/tpot-honeypot)  
   Set up a honeypot environment using T-Pot with monitoring and logging, capturing real-world attack patterns for analysis.
 
-## Email Verifier Tool
-- [Email Verifier Tool]({{ site.baseurl }}/projects/email-verifier-tool)  
-  Developed a Windows tool to generate and verify email permutations using SMTP/MX checks, with CSV export functionality for bulk processing.
+## SQL Injection Web App in Flask
+- [SQL Injection Web App in Flask]({{ site.baseurl }}/projects/sql-injection-flask)  
+  Building a secure web application in Flask by implementing defenses against SQL Injection attacks.
 
 [Back to Home](index.md)
