@@ -17,7 +17,7 @@ Before diving into implementation, we researched SQL Injection attacks and how a
 ## Understanding the Concepts
 SQL Injection occurs when user input is directly passed into a SQL query without validation. Attackers can exploit this to **manipulate database queries**—from bypassing logins to retrieving sensitive data.
 
-![SQL Screenshot](/assets/images/projects/sql.png)
+![SQL Screenshot](/assets/images/projects/sql0.png)
 
 To prevent that, we focused on three main concepts:  
 
