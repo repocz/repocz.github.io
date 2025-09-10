@@ -38,10 +38,20 @@ Modern environments may leverage **Azure Active Directory**, which shifts identi
 1. **Server Setup:**  
    Installed **Windows Server 2016**, configured roles including **Active Directory Domain Services (AD DS)** and **DNS**.
 
+   ![AD Lab Screenshot](/assets/images/projects/adds.png)
+
+   ![AD Lab Screenshot](/assets/images/projects/adds2.png)
+
+
+
 2. **Logical AD Management:**  
    - Created **Organizational Units** such as `Operations`.  
    - Added **users** like `Chandler Roah` and `John Hall` with proper username conventions (`surname.initial`).  
    - Created **groups** like `Ops Managers` and assigned users to these groups for easier permissions management.  
+
+   ![AD Lab Screenshot](/assets/images/projects/OU.png)
+
+
 
 3. **Exploring Attributes & Permissions:**  
    - Examined user properties (login times, password policies, profiles).  
@@ -52,6 +62,9 @@ Modern environments may leverage **Azure Active Directory**, which shifts identi
    - Configured **sites and replication** for high availability.  
    - Set up multiple sites (e.g., London and Oslo) to simulate inter-site replication.  
    - Explored **Domains & Trusts** for potential forest and child domain relationships.
+
+   ![AD Lab Screenshot](/assets/images/projects/ntds.png)
+
 
 5. **Best Practices Learned:**  
    - Always have multiple DCs to avoid single points of failure.  
