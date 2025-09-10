@@ -20,6 +20,11 @@ title: Projects
 
 ## Python Scripting Assignment
 - [Python Scripting Assignment]({{ site.baseurl }}/projects/python-scripting-assignment)  
-  A collection of Python scripting tasks covering file handling, hashing, randomization, brute force, and system utilities.    
+  A collection of Python scripting tasks covering file handling, hashing, randomization, brute force, and system utilities.   
+
+  ## Reverse Engineering & Debugging Labs
+- [Reverse Engineering & Debugging Labs]({{ site.baseurl }}/projects/reverse-engineering-labs)  
+  A series of labs where I used tools like IDA, Ghidra, OllyDbg, Cutter, and Linux utilities to bypass anti-debugging techniques, patch binaries, and recover hidden flags.
+ 
 
 [Back to Home](index.md)
