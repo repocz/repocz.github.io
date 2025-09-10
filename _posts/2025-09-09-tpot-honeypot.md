@@ -1,16 +1,17 @@
 ---
+
 layout: post
 title: "T-Pot Honeypot Deployment and Cyber Analysis"
 date: 2025-09-09
 categories: projects
-permalink: /projects/tpot-honeypot
----
+permalink: /projects/2025-09-09-tpot-honey
+------------------------------------------
 
 # Honeypot Deployment and Cyber Analysis Using T-Pot
 
-**Author:** Mauricio Spadoni  
-**Course:** CYBR 4950 — University of North Georgia  
-**Professor:** Yong Wei  
+**Author:** Mauricio Spadoni
+**Course:** CYBR 4950 — University of North Georgia
+**Professor:** Yong Wei
 **Date:** May 6, 2025
 
 ## Abstract
@@ -64,16 +65,16 @@ SpiderFoot was used to enrich attacker IPs and domains with OSINT (WHOIS, passiv
 
 ## Challenges and Solutions
 
-- **Framework selection:** Initial testing revealed differences across honeypot solutions. T-Pot was selected for its integrated toolset and extensibility.
-- **Network configuration:** Proper isolation required careful virtual network and firewall configuration.
-- **Tool compatibility:** Integrating external tools (Splunk, Wireshark) into the environment presented dependency issues; native T-Pot tools were used when appropriate.
+* **Framework selection:** Initial testing revealed differences across honeypot solutions. T-Pot was selected for its integrated toolset and extensibility.
+* **Network configuration:** Proper isolation required careful virtual network and firewall configuration.
+* **Tool compatibility:** Integrating external tools (Splunk, Wireshark) into the environment presented dependency issues; native T-Pot tools were used when appropriate.
 
 ## Results and Key Findings
 
-- SSH brute-force attempts were the highest-volume attack vector.
-- Attackers commonly used default or weak credentials, indicating opportunistic, low-effort compromise attempts.
-- Real-time dashboards enabled quick assessment of incident volume and geographic distribution.
-- Combining ELK-based telemetry with SpiderFoot OSINT yielded richer context for threat intelligence.
+* SSH brute-force attempts were the highest-volume attack vector.
+* Attackers commonly used default or weak credentials, indicating opportunistic, low-effort compromise attempts.
+* Real-time dashboards enabled quick assessment of incident volume and geographic distribution.
+* Combining ELK-based telemetry with SpiderFoot OSINT yielded richer context for threat intelligence.
 
 ## Conclusion
 
@@ -83,20 +84,19 @@ Deploying a T-Pot honeypot demonstrated the value of hands-on honeypot operation
 
 Potential improvements:
 
-- Integrate Splunk for advanced correlation and search features.
-- Automate alerts and triage with TheHive and Cortex.
-- Expand intelligence enrichment using Maltego and additional OSINT sources.
-- Implement automated analysis pipelines for malware samples captured by honeypot sensors.
+* Integrate Splunk for advanced correlation and search features.
+* Automate alerts and triage with TheHive and Cortex.
+* Expand intelligence enrichment using Maltego and additional OSINT sources.
+* Implement automated analysis pipelines for malware samples captured by honeypot sensors.
 
 ## References
 
-- Spitzner, L. (2003). *Honeypots: Tracking Hackers*. Addison-Wesley.
-- Deutsche Telekom Security GmbH. (2023). *T-Pot: The All-In-One Multi Honeypot Platform* — https://github.com/telekom-security/tpotce
-- Elastic. (2023). *The Elastic Stack* — https://www.elastic.co/what-is/elk-stack
-- SpiderFoot. (2023). *Automated OSINT Tool* — https://www.spiderfoot.net/
-- Docker Inc. (2023). *What is Docker?* — https://www.docker.com/resources/what-container/
+* Spitzner, L. (2003). *Honeypots: Tracking Hackers*. Addison-Wesley.
+* Deutsche Telekom Security GmbH. (2023). *T-Pot: The All-In-One Multi Honeypot Platform* — [https://github.com/telekom-security/tpotce](https://github.com/telekom-security/tpotce)
+* Elastic. (2023). *The Elastic Stack* — [https://www.elastic.co/what-is/elk-stack](https://www.elastic.co/what-is/elk-stack)
+* SpiderFoot. (2023). *Automated OSINT Tool* — [https://www.spiderfoot.net/](https://www.spiderfoot.net/)
+* Docker Inc. (2023). *What is Docker?* — [https://www.docker.com/resources/what-container/](https://www.docker.com/resources/what-container/)
 
 ---
 
-
-
+*This page was generated from the capstone report.*
