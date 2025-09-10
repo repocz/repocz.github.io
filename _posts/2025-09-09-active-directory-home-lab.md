@@ -40,7 +40,7 @@ Modern environments may leverage **Azure Active Directory**, which shifts identi
 
    ![AD Lab Screenshot](/assets/images/projects/adds.png)
 
-   ![AD Lab Screenshot](/assets/images/projects/adds2.png)
+   ![AD Lab Screenshot](/assets/images/projects/adds-2.png)
 
 
 
@@ -56,6 +56,9 @@ Modern environments may leverage **Azure Active Directory**, which shifts identi
 3. **Exploring Attributes & Permissions:**  
    - Examined user properties (login times, password policies, profiles).  
    - Enabled account features like password expiration, session restrictions, and remote control for admin management.
+
+![AD Lab Screenshot](/assets/images/projects/jhall.png)
+
 
 4. **Physical AD Management:**  
    - Located the **AD database (`ntds.dit`)** and associated log files.  
