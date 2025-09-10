@@ -39,9 +39,13 @@ The honeypot was configured to emulate services frequently targeted by attackers
 
 A virtual private server (DigitalOcean) was provisioned running Debian 11 with a minimum configuration of 4 CPU cores, 16 GB RAM, and 256 GB SSD. SSH access used key-based authentication and the server was hardened before deployment.
 
+![TPot Screenshot](/assets/images/projects/sdas.png)
+
 ### T-Pot Framework Installation
 
 T-Pot was installed using the official ISO and deployed under Docker. T-Pot’s integrated sensors (e.g., Cowrie, Dionaea, Honeytrap) and analytics tools were used as provided by the framework.
+
+![TPot Screenshot](/assets/images/projects/tpotframework.png)
 
 ### Linux Command-Line Workflows
 
@@ -51,6 +55,7 @@ All configuration and troubleshooting were performed via the Linux command line:
 
 Because T-Pot uses containerized services, managing Docker and container interactions was a central part of the deployment. Logs and inter-container networking were examined to ensure correct data flow to Elasticsearch and Kibana.
 
+![TPot Screenshot](/assets/images/projects/tpotframework2.png)
 ### Network Isolation and Security Controls
 
 Planning in VirtualBox allowed safe testing. In production, firewall rules and isolated VLANs prevented lateral movement while allowing the honeypot to attract and capture external traffic.
@@ -63,11 +68,15 @@ Kibana dashboards showed frequently used usernames such as `root`, `admin`, and 
 
 SpiderFoot was used to enrich attacker IPs and domains with OSINT (WHOIS, passive DNS, reputation data), helping identify potentially compromised infrastructure.
 
+![TPot Screenshot](/assets/images/projects/DCAA.png)
+
 ## Challenges and Solutions
 
 * **Framework selection:** Initial testing revealed differences across honeypot solutions. T-Pot was selected for its integrated toolset and extensibility.
 * **Network configuration:** Proper isolation required careful virtual network and firewall configuration.
 * **Tool compatibility:** Integrating external tools (Splunk, Wireshark) into the environment presented dependency issues; native T-Pot tools were used when appropriate.
+
+![TPot Screenshot](/assets/images/projects/cas.png)
 
 ## Results and Key Findings
 
@@ -75,6 +84,8 @@ SpiderFoot was used to enrich attacker IPs and domains with OSINT (WHOIS, passiv
 * Attackers commonly used default or weak credentials, indicating opportunistic, low-effort compromise attempts.
 * Real-time dashboards enabled quick assessment of incident volume and geographic distribution.
 * Combining ELK-based telemetry with SpiderFoot OSINT yielded richer context for threat intelligence.
+
+![TPot Screenshot](/assets/images/projects/rakf.png)
 
 ## Conclusion
 
