@@ -18,4 +18,8 @@ title: Projects
 - [SQL Injection Web App in Flask]({{ site.baseurl }}/projects/sql-injection-flask)  
   Building a secure web application in Flask by implementing defenses against SQL Injection attacks.
 
+## Python Scripting Assignment
+- [Python Scripting Assignment]({{ site.baseurl }}/projects/python-scripting-assignment)  
+  A collection of Python scripting tasks covering file handling, hashing, randomization, brute force, and system utilities.    
+
 [Back to Home](index.md)
