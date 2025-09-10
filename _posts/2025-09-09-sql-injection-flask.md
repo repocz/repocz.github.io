@@ -35,10 +35,16 @@ These practices built the foundation of our secure web application.
 We used **Flask** as the framework, with different routes (login, search, and profile) carefully updated to prevent SQL injection:
 
 - **Login Route** – The login logic used parameterized queries, making it impossible for attackers to inject SQL through the username or password fields.  
-- **Search Route** – Search functionality safely handled user queries without exposing the backend to malicious inputs.  
+![SQL Screenshot](/assets/images/projects/flask.png)
+
+- **Search Route** – Search functionality safely handled user queries without exposing the backend to malicious inputs.
+![SQL Screenshot](/assets/images/projects/search.png)
+
 - **Profile Route** – Profiles were retrieved securely using validated IDs, preventing direct query manipulation.  
 
 On the front end, we also designed **HTML forms** (login, search, and profile pages) that properly handled input and worked hand-in-hand with our back-end validation.
+
+![SQL Screenshot](/assets/images/projects/profile.png)
 
 ![SQL Screenshot](/assets/images/projects/sql3.png)
 
