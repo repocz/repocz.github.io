@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "T-Pot Honeypot Deployment and Cyber Analysis"
+description: "A hands-on exploration of a honeypot system to detect and analyze real-world cyber threats."
 date: 2025-09-09
 categories: projects
 permalink: /projects/2025-09-09-tpot-honeypot
