@@ -3,8 +3,7 @@ layout: post
 title: "T-Pot Honeypot Deployment and Cyber Analysis"
 date: 2025-09-09
 categories: projects
-permalink: /projects/tpot-honey
-
+permalink: /projects/tpot-honeypot
 ---
 
 # Honeypot Deployment and Cyber Analysis Using T-Pot
